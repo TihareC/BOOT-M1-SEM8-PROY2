@@ -50,7 +50,7 @@ Con estos conceptos hablados, avancemos a desarrollar nuestro segundo proyecto d
 
 ## 2. Demo
 
-Puedes entrar a ver el demo aquí: https://quizzical-beaver-3c9676.netlify.app/
+Puedes entrar a ver el demo aquí: https://wonderful-ardinghelli-5a4518.netlify.app/
 
 ![imagen](./imagenes/example2.png)
 
