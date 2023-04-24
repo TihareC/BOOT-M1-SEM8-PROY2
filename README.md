@@ -5,28 +5,22 @@
 ## **ÍNDICE**
 
 * [1. Intro](#1-intro)
-* [2. Demo](#2-demo)
+* [2. CRUD](#2-demo)
 
 ****
 
 ## 1. Intro
 
-
-
-- C - _Create_ ("Crear")
-- R - _Read_ ("Leer")
-- U - _Update_ ("Actualizar")
-- D - _Delete_ ("Borrar")
-
-Un ejemplo muy común relacionadas con operaciones CRUD son las tablas de datos.
+Se creo una página para ingresar post. Esta permite ingresar un titulo, una descripcion y una imagen que se guarda en base64 (texto)
 
 ![](./imagenes/01.png)
 
 ****
 
-## 2. Demo
+## 2. CRUD
 
-crud
+En la parte inferior se creo el mantenedor de post donde se ingresan los datos necesarios y un boton para guardar la información en localstorage.
+Cada post crea una tarjeta con los datos y 2 botones: una para modificar y el otro para eliminar los datos
 
 ![imagen](./imagenes/02.png)
 
