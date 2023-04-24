@@ -1,0 +1,156 @@
+.cabecera {
+    width: 100%;
+    text-align: center;
+    background-image: url('imagenes/banner-tihare.png');
+    border: 1px solid #bbbdc0;
+    border-radius: 15px;
+}
+
+/* BLOG */
+
+.blog {
+    text-align: center;
+    width: 100%;
+    border: 1px solid #bbbdc0;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: #fefff0;
+}
+
+.blog-posteos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blog-post {
+    border: 1px solid #bbbdc0;
+    border-radius: 15px;
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.blog-post-imagen {
+    height: 200px;
+    overflow: hidden;
+    border-bottom: 1px solid #e7e9ea;
+}
+
+.blog-post-imagen img {
+    width: 100%;
+}
+
+.blog-post-texto {
+    padding: 10px;
+    text-align: center;
+}
+
+.blog-post-texto h2 {
+    margin-top: 0;
+}
+
+.blog-post-botones {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-post-botones a {
+    color: #000000;
+    text-decoration: none;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.blog-post-botones .boton-post {
+    background-color: #e3e9e3;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.blog-post-botones img {
+    height: 15px;
+    margin-right: 5px;
+    border: 0;
+}
+
+
+@media (max-width: 768px) {
+    .blog-posteos {
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .blog-post {
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+}
+
+/* REGISTRO */
+
+.registro {
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.secciones-registro {
+    width: 100%;
+    border: 1px solid #bbbdc0;
+    border-radius: 10px;
+    display: flex;
+    background-color: #fefff0;
+}
+
+.secciones-registro-derecha {
+    width: 25%;
+    padding: 10px;
+}
+
+.secciones-registro-izquierda {
+    width: 75%;
+    padding: 10px;
+}
+
+.secciones-registro-derecha img {
+    width: 100%
+}
+
+.registro form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+}
+
+.registro form input {
+    margin-bottom: 10px;
+    height: 35px;
+    border: 1px solid #bbbdc0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.registro form input[type="submit"] {
+    background-color: #53a155;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .secciones-registro {
+        flex-direction: column;
+    }
+
+    .secciones-registro-derecha {
+        width: 100%;
+    }
+    
+    .secciones-registro-izquierda {
+        width: 100%;
+    }
+}
