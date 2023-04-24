@@ -1,0 +1,43 @@
+<html>
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Crowlink</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</header>
+
+<body>
+    <div class="cabecera">
+        <h1>Bienvenidos al blog de Crowlink</h1>
+        <p>Comparte tus dibujos con nosotros.</p>
+    </div>
+    <div class="blog">
+        <h1>Nuestros últimos posteos</h1>
+        <div class="blog-posteos">
+            
+        </div>
+    </div>
+    <div id="formulario" class="registro">
+        <div class="secciones-registro">
+            <div class="secciones-registro-izquierda">
+                <h1>Ingresar nuevo post</h1>
+                <form action="#">
+                    <input type="hidden" id="id" name="id" />
+                    <input type="hidden" id="imagenRespaldo" name="imagenRespaldo" />
+                    
+                    <input type="text" id="titulo" name="titulo" placeholder="Titulo" required minlength="5" />
+                    <input type="text" id="descripcion" name="descripcion" placeholder="Descripción" required minlength="5" />
+                    <input type="file" id="imagen" name="imagen" placeholder="Imagen" accept="image/*" />
+                    <input type="submit" value="Registrarse" />
+                </form>
+            </div>
+            <div class="secciones-registro-derecha">
+                <img id="imagenVistaPrevia" src="" alt="Imagen de vista previa" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
